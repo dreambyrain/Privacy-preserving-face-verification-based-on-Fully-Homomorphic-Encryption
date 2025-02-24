@@ -1,0 +1,16 @@
+使用说明：
+1.使用系统：Linux Ubuntu；
+
+2.使用方式：在build目录中的系统终端下输入”./Program“命令运行；
+
+3.开源库使用：请自行下载OpenCV人脸识别库，以及微软的Microsoft SEAL 全同态加密库。具体路径也需要看CMakeLists.txt文   
+    件己进行更改；
+
+4.文件加密的地址需要在void Mainwindow::encryptData()中的QString outPath =           
+    "/home/   /Ciphertext/encrypted_trainer.bin";进行修改；
+
+5.运行结果可以参考Operation result reference文件，里面有运行程序时关键步骤对应的图片。
+
+6.需要根据自己的路径更改CMakeLists.txt文件中的SEAL库等路径。
+
+感谢您的观看。
